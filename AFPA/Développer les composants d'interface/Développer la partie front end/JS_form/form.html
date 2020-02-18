@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="insert">
+        <p id="titre"></p>
+        <input type="text" name="cobaye" id="cobaye">
+        <input type="button" name="valeur" value="inserer" id="valeur">
+    </div>
+    <form method="POST" action="view/test" hidden>
+        <input type="text" name="nom" id="nom">
+        <input type="text" name="prenom" id="prenom">
+        <input type="text" name="adresse" id="adresse">
+        <input type="text" name="ville" id="ville">
+        <input type="text" name="tel" id="tel">
+    </form>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"
+integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+crossorigin="anonymous"></script>
+<script src="form_interactive.js"></script>
+</html>
